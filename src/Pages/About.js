@@ -18,15 +18,18 @@ function About() {
           Work Experience
         </h1>
         {React.Children.toArray(
-          workDetails.map(({ Position, Company, Location, Type, Duration }) => (
-            <Work
-              position={Position}
-              company={Company}
-              location={Location}
-              type={Type}
-              duration={Duration}
-            />
-          ))
+          workDetails.map(
+            ({ Position, Company, Location, Type, Duration, CompanyLogo }) => (
+              <Work
+                position={Position}
+                company={Company}
+                location={Location}
+                type={Type}
+                duration={Duration}
+                companylogo={CompanyLogo}
+              />
+            )
+          )
         )}
       </section>
       <section>
@@ -34,15 +37,18 @@ function About() {
           Education
         </h1>
         {React.Children.toArray(
-          eduDetails.map(({ Position, Company, Location, Type, Duration }) => (
-            <Work
-              position={Position}
-              company={Company}
-              location={Location}
-              type={Type}
-              duration={Duration}
-            />
-          ))
+          eduDetails.map(
+            ({ Position, Company, Location, Type, Duration, CompanyLogo }) => (
+              <Work
+                position={Position}
+                company={Company}
+                location={Location}
+                type={Type}
+                duration={Duration}
+                companylogo={CompanyLogo}
+              />
+            )
+          )
         )}
       </section>
     </main>

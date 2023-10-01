@@ -24,6 +24,11 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
+import abl from "./assets/company/abllogo.png";
+import netsol from "./assets/company/netsollogo.png";
+import amal from "./assets/company/amallogo.png";
+import gcuf from "./assets/company/gcuflogo.jpg";
+
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
@@ -64,6 +69,7 @@ export const workDetails = [
     Location: "Lahore, Pakistan",
     Type: "Full Time",
     Duration: "Feb 2022 - Current",
+    CompanyLogo: netsol,
   },
 
   {
@@ -72,6 +78,7 @@ export const workDetails = [
     Location: "Lahore, Pakistan",
     Type: "Full Time",
     Duration: "Oct 2019 - Feb 2022",
+    CompanyLogo: abl,
   },
 ];
 
@@ -83,6 +90,7 @@ export const eduDetails = [
     Location: "Lahore, Pakistan",
     Type: "Full Time",
     Duration: "Mar 2022 - June-2022",
+    CompanyLogo: amal,
   },
   {
     Position: "Bachelor in Computer Science",
@@ -90,6 +98,7 @@ export const eduDetails = [
     Location: "Pakistan",
     Type: "Full Time",
     Duration: "Sep 2015 - Aug 2019",
+    CompanyLogo: gcuf,
   },
 ];
 
