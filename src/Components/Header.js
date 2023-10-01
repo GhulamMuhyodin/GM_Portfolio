@@ -84,7 +84,7 @@ function Header() {
           <li>
             <a href={linkdein} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-blue-400 fill-dark-heading"
+                className="dark:fill-blue-500 fill-dark-heading"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
