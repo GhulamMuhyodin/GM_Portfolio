@@ -4,7 +4,7 @@ import logogradient from "./assets/logogm.png";
 import logo from "./assets/logo.png";
 // Profile Image
 import profile from "./assets/profile.jpg";
-// Tech stack images
+// Tech stack images ABC
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
 import sass from "./assets/techstack/sass.png";
