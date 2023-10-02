@@ -28,7 +28,7 @@ import abl from "./assets/company/abllogo.png";
 import netsol from "./assets/company/netsollogo.png";
 import amal from "./assets/company/amallogo.png";
 import gcuf from "./assets/company/gcuflogo.jpg";
-
+import pin from "./assets/company/location.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
@@ -70,6 +70,7 @@ export const workDetails = [
     Type: "Full Time",
     Duration: "Feb 2022 - Current",
     CompanyLogo: netsol,
+    Pin: pin,
   },
 
   {
@@ -79,6 +80,7 @@ export const workDetails = [
     Type: "Full Time",
     Duration: "Oct 2019 - Feb 2022",
     CompanyLogo: abl,
+    Pin: pin,
   },
 ];
 
@@ -91,6 +93,7 @@ export const eduDetails = [
     Type: "Full Time",
     Duration: "Mar 2022 - June-2022",
     CompanyLogo: amal,
+    Pin: pin,
   },
   {
     Position: "Bachelor in Computer Science",
@@ -99,6 +102,7 @@ export const eduDetails = [
     Type: "Full Time",
     Duration: "Sep 2015 - Aug 2019",
     CompanyLogo: gcuf,
+    Pin: pin,
   },
 ];
 

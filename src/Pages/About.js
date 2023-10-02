@@ -19,7 +19,15 @@ function About() {
         </h1>
         {React.Children.toArray(
           workDetails.map(
-            ({ Position, Company, Location, Type, Duration, CompanyLogo }) => (
+            ({
+              Position,
+              Company,
+              Location,
+              Type,
+              Duration,
+              CompanyLogo,
+              Pin,
+            }) => (
               <Work
                 position={Position}
                 company={Company}
@@ -27,6 +35,7 @@ function About() {
                 type={Type}
                 duration={Duration}
                 companylogo={CompanyLogo}
+                pin={Pin}
               />
             )
           )
@@ -38,7 +47,15 @@ function About() {
         </h1>
         {React.Children.toArray(
           eduDetails.map(
-            ({ Position, Company, Location, Type, Duration, CompanyLogo }) => (
+            ({
+              Position,
+              Company,
+              Location,
+              Type,
+              Duration,
+              CompanyLogo,
+              Pin,
+            }) => (
               <Work
                 position={Position}
                 company={Company}
@@ -46,6 +63,7 @@ function About() {
                 type={Type}
                 duration={Duration}
                 companylogo={CompanyLogo}
+                pin={Pin}
               />
             )
           )

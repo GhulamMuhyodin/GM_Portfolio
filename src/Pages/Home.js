@@ -89,6 +89,7 @@ function Home() {
             {about}
           </h6> */}
         </div>
+
         <div className="mb-12 md:mb-10">
           <img
             // ref={myimageref}
