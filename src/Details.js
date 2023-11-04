@@ -3,7 +3,7 @@
 import logogradient from "./assets/logogm.png";
 import logo from "./assets/logo.png";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/profile.png";
 // Tech stack images ABC
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -64,11 +64,20 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Full Stack Developer (Angular + .Net + NodeJS)",
+    Position: "Senior Software Engineer (Angular + .Net + NodeJS)",
     Company: `Netsol Technologies Inc`,
     Location: "Lahore, Pakistan",
     Type: "Full Time",
-    Duration: "Feb 2022 - Current",
+    Duration: "July 2023 - Current",
+    CompanyLogo: netsol,
+    Pin: pin,
+  },
+  {
+    Position: "Software Engineer (Angular + .Net + NodeJS)",
+    Company: `Netsol Technologies Inc`,
+    Location: "Lahore, Pakistan",
+    Type: "Full Time",
+    Duration: "Feb 2022 - June 2023",
     CompanyLogo: netsol,
     Pin: pin,
   },
