@@ -73,8 +73,14 @@ function Technologies() {
           width={100}
           height={100}
         />
-        <img src={figma} title="Figma" alt="Figma" />
-        <img src={xd} title="Adobe XD" alt="" width={100} height={100} />
+        <img src={figma} title="Figma" alt="Figma" width={100} height={100} />
+        <img
+          src={xd}
+          title="Adobe XD"
+          alt="Adobe XD"
+          width={100}
+          height={100}
+        />
         <img src={npm} title="NPM" alt="NPM" />
         <img src={postman} title="Postman" alt="Postman" />
       </section>
