@@ -73,7 +73,7 @@ function Technologies() {
           width={100}
           height={100}
         />
-        <img src={figma} title="Figma" alt="Figma" width={100} height={100} />
+        <img src={figma} title="Figma" alt="Figma" width={70} height={70} />
         <img
           src={xd}
           title="Adobe XD"
