@@ -26,6 +26,7 @@ import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 import abl from "./assets/company/abllogo.png";
 import netsol from "./assets/company/netsollogo.png";
+import systems from "./assets/company/systemlogo.jpg";
 import amal from "./assets/company/amallogo.png";
 import gcuf from "./assets/company/gcuflogo.jpg";
 import pin from "./assets/company/location.png";
@@ -64,11 +65,20 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
+    Position: "Full Stack Angular Developer",
+    Company: `Systems Limited`,
+    Location: "Lahore, Pakistan",
+    Type: "Full Time",
+    Duration: "Nov 2023 - Current",
+    CompanyLogo: systems,
+    Pin: pin,
+  },
+  {
     Position: "Senior Software Engineer (Angular + .Net + NodeJS)",
     Company: `Netsol Technologies Inc`,
     Location: "Lahore, Pakistan",
     Type: "Full Time",
-    Duration: "July 2023 - Current",
+    Duration: "July 2023 - Nov-2023",
     CompanyLogo: netsol,
     Pin: pin,
   },
